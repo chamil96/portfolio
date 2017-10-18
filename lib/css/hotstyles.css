@@ -177,6 +177,7 @@ html, body {
 
 .indexicon figure{
 	padding-left: 35px;
+	padding-top: 102px;
 	text-align: center;
 	width: 80%
 }
@@ -186,6 +187,10 @@ html, body {
   background-image: url("../img/indexbackground.jpg");
   background-size: cover;
 	height: 85vh;
+}
+
+#laptop{
+	width: 600px;
 }
 
 
