@@ -268,7 +268,7 @@ html, body {
 	text-align: center;
 }
 
-#resumelink{
+.resumelink{
 	color: darkred;
   display: inline-block;
   font-family: 'Raleway', sans-serif;
@@ -278,6 +278,14 @@ html, body {
   padding-top: 20px;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.resumelink:hover, .resumelink:active
+{
+	-webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+	transition: 500ms;
 }
 
 #resume_subheader{
