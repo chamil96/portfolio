@@ -71,6 +71,7 @@
     		</li>
     	</ul>
     	</section>
+      <a href="lib/resume/ChrisHamilton"></a>
     </div>
   </div>
 <?php
