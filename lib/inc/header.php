@@ -6,6 +6,7 @@
     <link href="./lib/css/hotstyles.css?v=<?php echo time(); ?>" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="icon" id="blackc" type="image/x-icon" href="lib/img/blackc.png" />
   </head>
   <body>
     <div class="container">

@@ -51,6 +51,11 @@ html, body {
     overflow-x: hidden;
 }
 
+#blackc{
+	width: 32px;
+	height: 32px;
+}
+
 .bottom_wrapper{
 	background-color: #474747;
 	bottom: 0;
