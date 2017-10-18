@@ -70,8 +70,8 @@
     			</ul>
     		</li>
     	</ul>
+      <a id="resumelink" href="lib/resume/ChrisHamiltonResume.pdf">Resume Copy Link</a>
     	</section>
-      <a href="lib/resume/ChrisHamilton"></a>
     </div>
   </div>
 <?php
