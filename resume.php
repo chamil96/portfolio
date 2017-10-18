@@ -66,7 +66,7 @@
     			<ul>
     				<li>Customs Baggage Handler</li>
             <li>Sept 2015 – Nov 2016</li>
-            <li>Maintained level of security to Federal Inspection Area and provided clients with personal property in quick time.</li>
+            <li>Maintained level of security to Federal Inspection Station and provided clients with personal property in quick time.</li>
     			</ul>
     		</li>
     	</ul>
