@@ -1,7 +1,7 @@
 <?php
   include ("lib/inc/header.php")
 ?>
-  <div class="resume_content row">
+  <div class="main_content row">
     <div class="resume">
       <h1 id="resume_header">Resume</h1>
       <header>

@@ -80,7 +80,7 @@ html, body {
 .main_content{
 	background-image: url("../img/background2.png");
 	background-size: cover;
-	height: 85vh;
+	padding-bottom: 20px;
 }
 
 .navbar{
@@ -211,6 +211,12 @@ html, body {
 }
 /*----------------------------------------------------------------------------*/
 /*----------------------------------about-------------------------------------*/
+.aboutme_content{
+	background-image: url("../img/background2.png");
+	background-size: cover;
+	height: 85vh;
+}
+
 .introduction{
 	float: left;
 	padding-left: 60px;
@@ -221,6 +227,7 @@ html, body {
 	color: #A82020;
 	font-family: 'Oswald', sans-serif;
 	font-size: 4em;
+	text-transform: uppercase;
 }
 
 .introduction p{
@@ -246,7 +253,7 @@ html, body {
 }
 /*----------------------------------------------------------------------------*/
 /*-----------------------------------resume-----------------------------------*/
-.resume_content{
+.main_content{
 	background-image: url("../img/background2.png");
 	background-size: cover;
 	padding-bottom: 20px;
@@ -267,10 +274,12 @@ html, body {
 	padding-top: 60px;
 	padding-right: 20px;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 .resumelink1{
 	color: darkred;
+  display: inline-block;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   list-style: none;
@@ -325,6 +334,7 @@ html, body {
 	font-size: 4em;
 	padding-top: 60px;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 #field{
@@ -384,6 +394,7 @@ label{
 	padding-right: 20px;
 	padding-top: 60px;
 	text-align: center;
+	text-transform: uppercase;
 }
 /*----------------------------------------------------------------------------*/
 

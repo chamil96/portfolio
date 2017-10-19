@@ -1,7 +1,7 @@
 <?php
   include ("lib/inc/header.php")
 ?>
-  <div class="main_content row">
+  <div class="aboutme_content row">
     <article class="introduction one-half">
       <h1>About Me</h1>
       <p>Hi my name is Chris Hamilton and I'm an aspiring front-end developer.
