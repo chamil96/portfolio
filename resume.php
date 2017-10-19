@@ -12,7 +12,7 @@
     		</ul>
     		<ul id="header-right" title="web">
     			<li>naseemhamilton96@gmail.com</li>
-    			<li>LinkedIn</li>
+    			<li><a class="resumelink1" href="https://www.linkedin.com/in/christopher-hamilton-26b4b4146/">LinkedIn</a></li>
     		</ul>
     	</header>
     	<section><h3 id="resumeh3">Education:</h3>
@@ -70,7 +70,7 @@
     			</ul>
     		</li>
     	</ul>
-      <a class="resumelink" href="lib/resume/ChrisHamiltonResume.pdf">Resume Copy Link</a>
+      <a class="resumelink2" href="lib/resume/ChrisHamiltonResume.pdf">Resume Copy Link</a>
     	</section>
     </div>
   </div>
