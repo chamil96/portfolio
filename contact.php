@@ -2,7 +2,8 @@
   include ("lib/inc/header.php")
 ?>
   <div class="main_content">
-    <h1 id="contact_header">Contact Me</h1>
+    <h1 id="contact_header">Thanks for visiting</h1>
+    <h2 id="contact_subheader">You can email me, my email is naseemhamilton96@gmail.com</h2>
     <form class="form" action="contact.php" method="post">
       <fieldset id="field">
         <label for="fname">Firstname: </label>

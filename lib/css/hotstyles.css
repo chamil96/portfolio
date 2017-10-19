@@ -336,6 +336,14 @@ html, body {
 	text-align: center;
 	text-transform: uppercase;
 }
+#contact_subheader{
+	color: #A82020;
+	font-family: 'Oswald', sans-serif;
+	font-size: 35px;
+	padding-top: 11px;
+	padding-bottom: 12px;
+	text-align: center;
+}
 
 #field{
 	background-color: darkred;
