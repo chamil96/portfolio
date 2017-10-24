@@ -45,8 +45,10 @@
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
+          <li>React.js</li>
           <li>jQuery</li>
           <li>PHP</li>
+          <li>MySQL</li>
           <li>public speaking</li>
     		</ul>
     	</section>

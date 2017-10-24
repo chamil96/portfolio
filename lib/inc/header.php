@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Chris Hamilton Portfolio Site</title>
     <link href="./lib/css/hotstyles.css?v=<?php echo time(); ?>" rel="stylesheet">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="icon" id="blackc" type="image" href="lib/img/blackc.png" />
