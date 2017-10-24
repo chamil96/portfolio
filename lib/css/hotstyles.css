@@ -433,7 +433,7 @@ label{
 	height: 60px;
 }
 
-.projects h2{
+.projects h2 a{
 	font-size: 20px;
 	font-family: 'Raleway', sans-serif;
 	color: white;
