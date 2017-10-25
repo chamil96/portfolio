@@ -49,6 +49,7 @@ table {
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+		overflow-y:inherit;
 }
 
 #blackc{
@@ -59,7 +60,7 @@ html, body {
 .bottom_wrapper{
 	background-color: #474747;
 	bottom: 0;
-	height: 15vh;
+	height: 20vh;
 	text-align: center;
 }
 
@@ -80,7 +81,7 @@ html, body {
 .main_content{
 	background-image: url("../img/background2.png");
 	background-size: cover;
-	padding-bottom: 20px;
+	padding-bottom: 25px;
 }
 
 .navbar{
@@ -142,6 +143,7 @@ html, body {
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 20px;
+	padding-bottom: 20px;
 	text-decoration: none;
 }
 
@@ -164,6 +166,8 @@ html, body {
 	text-align: center;
 }
 
+
+
 /*----------------------------------------------------------------------------*/
 
 /*-----------------------------------index------------------------------------*/
@@ -171,13 +175,14 @@ html, body {
 	float: left;
 	font-family: 'Oswald', sans-serif;
 	font-size: 4em;
+	display: inline-block;
 
 }
 
 .banner h1, .banner h2{
 	color: white;
 	width: 80%;
-	margin: 0, auto;
+	margin: 0 auto;
 	padding-left: 60px;
 	padding-top: 60px;
 }
@@ -188,12 +193,15 @@ html, body {
 
 .indexicon{
 	float: right;
-}
-
-.indexicon figure{
+	display: inline-block;
 	padding-left: 35px;
 	padding-top: 102px;
 	text-align: center;
+	margin: 0 auto;
+
+}
+
+.indexicon figure{
 	width: 80%
 }
 
@@ -218,7 +226,7 @@ html, body {
 .aboutme_content{
 	background-image: url("../img/background2.png");
 	background-size: cover;
-	height: 85vh;
+	height: 95vh;
 }
 
 .introduction{
@@ -433,7 +441,23 @@ label{
 	height: 60px;
 }
 
-.projects h2 a{
+.projects a{
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	text-decoration: none;
+}
+
+.projects h2:hover, .projects h2:active {
+	color: lightgrey;
+	opacity: 0.8;
+	-webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+	transition: 500ms;
+}
+
+.projects h2{
 	font-size: 20px;
 	font-family: 'Raleway', sans-serif;
 	color: white;
@@ -441,39 +465,110 @@ label{
 
 /*----------------------------------------------------------------------------*/
 
-@media (max-width: 1163px){
-	.banner{
-    font-size: 3em;
+@media screen (max-width: 375px), screen and (max-height: 700px) {
+.top_wrapper{
+	background-color: #181818;
+	top: 0;
+	height: 10vh;
+	text-align: center;
+}
+
+nav.navigation.three-quarters {
+    font-size: 40px;
+		width: 93%;
+}
+
+.index_main_content {
+    background-color: darkgray;
+    background-image: url(../img/indexbackground.jpg);
+    background-size: cover;
+    height: 85vh;
+    margin: 0 auto;
+	}
+.banner{
+	float: left;
+	font-family: 'Oswald', sans-serif;
+	font-size: 9em;
+	width: 100%
+}
+
+.indexicon {
+	display: none;
+}
+
+.introduction{
+    float: left;
+    padding-left: 60px;
+    padding-top: 60px;
+    line-height: 1.5;
+		width: 95%;
+}
+
+.projects {
+    padding-top: 10px;
+    text-align: center;
+    width: 68%;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: darkred;
+    border-radius: 10px;
+    height: 139px;
+}
+
+.projects h2 {
+    font-size: 31px;
 	}
 
-	.indexicon figure{
-		padding-left: 0px;
-	}
+#contact_subheader {
+    color: #A82020;
+    font-family: 'Oswald', sans-serif;
+    font-size: 53px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+    text-align: center;
+}
 
-	#laptop{
-		width: 537px;
-	}
+.form {
+    height: 1000px;
+    padding-top: 10px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
 
-	.navbar li, a{
-		font-size: 15px;
-		padding-top: 15px;
-	}
+label {
+    color: white;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 42px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    text-align: left;
+    width: 100%;
 
 }
 
-@media (max-width: 844px){
-	.banner{
-    font-size: 39px;
-	}
+.input {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 95%;
+    font-size: 27px;
+}
 
-	#laptop{
-		padding-top: 43px;
-		width: 404px;
-	}
-
-	.navbar li, a{
-		font-size: 16px;
-	  padding-top: 10px;
-	}
-
+#submit_btn {
+    height: 77px;
+    background-color: darkgrey;
+    border-radius: 8px;
+    color: white;
+    margin-bottom: 16px;
+    margin-top: 10px;
+    padding: 15px;
+    width: 70%;
+    font-size: 28px;
 }
